@@ -26,7 +26,7 @@ The `humbertovarona/debcrontasks:v1`,  `humbertovarona/ubucrontasks:v1`, and `hu
 
 Humberto L. Varona, Silena Herold-Garcia. (2024). Dockers for task automation using Python and Bash shell scripts. (1.0). Zenodo. https://doi.org/10.5281/zenodo.13340172
 
-## How to make this docker
+## How to make this dockers
 
 ```bash
 docker build -t debcrontasks .
