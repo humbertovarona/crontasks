@@ -126,10 +126,10 @@ Your `crontab` file should be placed in the `crontasks/` directory and might loo
 
 ```plaintext
 # Run test_task.py every minute
-* * * * * root python3 /usr/src/app/scripts/test_task.py >> /var/log/cron.log 2>&1
+* * * * * python3 /usr/src/app/scripts/test_task.py >> /var/log/cron.log 2>&1
 
 # Run getfiles.sh every 5 minutes
-*/5 * * * * root /usr/src/app/scripts/getfiles.sh >> /var/log/cron.log 2>&1
+*/5 * * * * /usr/src/app/scripts/getfiles.sh >> /var/log/cron.log 2>&1
 ```
 
 ### Making Scripts Executable
